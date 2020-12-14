@@ -1,0 +1,3 @@
+bin /usr
+debian/changelog /usr/share/podcli
+src/* /usr/share/podcli

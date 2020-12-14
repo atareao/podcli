@@ -1,0 +1,106 @@
+# Spanish translations for podcli package.
+# Copyright (C) 2020 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the podcli package.
+# Lorenzo <lorenzo.carbonell.cerezo@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: podcli - 0.1.0-0extras20.04.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-07 19:19+0200\n"
+"PO-Revision-Date: 2020-06-07 07:56+0200\n"
+"Last-Translator: Lorenzo <lorenzo.carbonell.cerezo@gmail.com>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/podcli.py:44
+msgid "Downloading images for {}"
+msgstr "Descargando imágenes para {}"
+
+#: src/podcli.py:78
+msgid "Downloading {}. \"{}\""
+msgstr "Descargando {}. \"{}\""
+
+#: src/podcli.py:84
+msgid "Playing {}. {}\n"
+msgstr "Descargando {}. {}\n"
+
+#: src/podcli.py:88
+msgid "Can't play {}. \"{}\""
+msgstr "No puedo reproducir {}. \"{}\""
+
+#: src/podcli.py:113
+msgid "* Downloading \"{}\""
+msgstr "* Descargando \"{}\""
+
+#: src/podcli.py:118
+msgid "* \"{}\" is already downloaded"
+msgstr "* \"{}\" ya está descargado"
+
+#: src/podcli.py:138
+msgid "Download audio"
+msgstr "Descargando audio"
+
+#: src/podcli.py:140
+msgid "Only for debug"
+msgstr "Solo para depuración"
+
+#: src/podcli.py:142
+msgid "Show the content of the episode in html"
+msgstr "Muestra el contenido del episodio en formato html"
+
+#: src/podcli.py:144
+msgid "List episodes"
+msgstr "Lista los episodios"
+
+#: src/podcli.py:146
+msgid "Select first episode"
+msgstr "Selecciona el primer episodio"
+
+#: src/podcli.py:148
+msgid "Download images"
+msgstr "Descarga imágenes"
+
+#: src/podcli.py:150
+msgid "Select last episode"
+msgstr "Selecciona el primer episodio"
+
+#: src/podcli.py:152
+msgid "Play audio, and download if necessary"
+msgstr "Reproduce el audio y lo descarga si es necesario"
+
+#: src/podcli.py:154
+msgid "Show the content of the episode in markdown"
+msgstr "Muestra el contenido del episodio en formato markdown"
+
+#: src/podcli.py:156
+msgid "The url or filename of the feed"
+msgstr "La url o el nombre del archivo del feed"
+
+#: src/podcli.py:167
+msgid "Empty feed"
+msgstr "Feed vacío"
+
+#: src/podcli.py:179
+msgid "No episode selected"
+msgstr "Ningún episodio seleccionado"
+
+#: src/podcli.py:181
+msgid "Total of episodes: {}"
+msgstr "Total de episodios {}"
+
+#: src/podcli.py:182
+msgid "First episode selected: {}. \"{}\""
+msgstr "Primer episodio seleccionado: {}. \"{}\""
+
+#: src/podcli.py:183
+msgid "Last episode selected: {}. \"{}\""
+msgstr "Último episodio seleccionado {}. \"{}\""
+
+#: src/podcli.py:184
+msgid "Number of episodes selected: {}\n"
+msgstr "Número de episodios seleccionados: {}\n"
