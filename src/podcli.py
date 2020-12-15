@@ -57,17 +57,16 @@ def option_play(items, first):
     if not os.path.exists('audio'):
         os.makedirs('audio')
     for index, item in enumerate(items):
-        for link in item.links:
-            if link.type == 'audio/mpeg':
+        for link in item.media_content:
+            if link['type'] == 'audio/mpeg':
                 ext = 'mp3'
-            elif link.type == 'audio/x-m4a':
+            elif link['type'] == 'audio/x-m4a':
                 ext = 'm4a'
-            elif link.type == 'audio/ogg':
+            elif link['type'] == 'audio/ogg':
                 ext = 'ogg'
             else:
                 continue
-
-            url = link['href']
+            url = link['url']
             podcast_title = ''.join([c if c.isalnum() else
                                      '_' for c in item['title']])
             podcast_datetime = time.strftime(
@@ -93,16 +92,17 @@ def option_audio(items):
     if not os.path.exists('audio'):
         os.makedirs('audio')
     for item in items:
-        for link in item.links:
-            if link.type == 'audio/mpeg':
+        print(item.media_content)
+        for link in item.media_content:
+            if link['type'] == 'audio/mpeg':
                 ext = 'mp3'
-            elif link.type == 'audio/x-m4a':
+            elif link['type'] == 'audio/x-m4a':
                 ext = 'm4a'
-            elif link.type == 'audio/ogg':
+            elif link['type'] == 'audio/ogg':
                 ext = 'ogg'
             else:
                 continue
-            url = link['href']
+            url = link['url']
             podcast_title = ''.join([c if c.isalnum() else
                                      '_' for c in item['title']])
             podcast_datetime = time.strftime(
